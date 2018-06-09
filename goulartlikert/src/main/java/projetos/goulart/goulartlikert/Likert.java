@@ -94,7 +94,7 @@ public class Likert {
 
     private void setColorItem(ImageView imageView){
         if(itemColor != -1){
-            imageView.setColorFilter(activity.getResources().getColor(itemColor));
+            imageView.setColorFilter(itemColor);
         }
     }
 
